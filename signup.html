@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign-up Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="sign-up-page-sec">
+      <div class="sign-up-wrp">
+        <div class="sign-up-img">
+          <img src="images/sign-up-img.png" alt="sign-up" />
+        </div>
+
+        <div class="sign-up-content">
+            <div class="sign-btn-wrp">
+                <h5 class="sign-up-btn  tab-link" data-tab="tab-1">Sign Up</h5>
+                <h5 class="sign-in-btn tab-link " data-tab="tab-2">Sign In</h5>
+              </div>
+        <div class="sing-up-tab" id="tab-1">
+          <div class="sign-up-logo">
+            <img src="images/logo.svg" alt="landing-logo" />
+          </div>
+          <div class="sign-up-details">
+            <h2>Welcome to <b class="bg-text"> ServiceConnect! </b></h2>
+            <form action="post">
+              <div class="form-wrp">
+                <div class="input-item">
+                  <label for="">Enter Your Email</label>
+                  <input type="email" placeholder="Example@gmail.com" />
+                </div>
+
+                <div class="input-item">
+                  <label for="">Enter Password</label>
+                  <input type="password" placeholder="********" />
+                </div>
+                <div class="forget-pw">
+                  <a href="#" class="bg-text">Forgot Password?</a>
+                </div>
+
+                <a href="#" class="input-btn bg-btn">Sign in</a>
+                <p>Don’t have an account?  <a href="#" class="bg-text"> Sign In</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="sing-up-tab" id="tab-2">
+            <div class="sign-up-logo">
+              <img src="images/logo.svg" alt="landing-logo" />
+            </div>
+            <div class="sign-up-details">
+              <h2>Welcome to <b class="bg-text"> ServiceConnect! </b></h2>
+              <a href="#" class="google-login">
+                <div class="google-icn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                        <path d="M22.7141 10.4599H21.875V10.4167H12.5V14.5833H18.387C17.5281 17.0089 15.2203 18.75 12.5 18.75C9.04845 18.75 6.25001 15.9516 6.25001 12.5C6.25001 9.04845 9.04845 6.25001 12.5 6.25001C14.0932 6.25001 15.5427 6.85105 16.6464 7.83282L19.5927 4.88647C17.7323 3.15261 15.2438 2.08334 12.5 2.08334C6.74741 2.08334 2.08334 6.74741 2.08334 12.5C2.08334 18.2526 6.74741 22.9167 12.5 22.9167C18.2526 22.9167 22.9167 18.2526 22.9167 12.5C22.9167 11.8016 22.8448 11.1198 22.7141 10.4599Z" fill="#FFC107"/>
+                        <path d="M3.28436 7.65157L6.70676 10.1615C7.6328 7.86876 9.87551 6.25001 12.5 6.25001C14.0932 6.25001 15.5427 6.85105 16.6463 7.83282L19.5927 4.88647C17.7323 3.15261 15.2437 2.08334 12.5 2.08334C8.49895 2.08334 5.02915 4.3422 3.28436 7.65157Z" fill="#FF3D00"/>
+                        <path d="M12.5 22.9167C15.1906 22.9167 17.6354 21.887 19.4839 20.2125L16.2599 17.4844C15.2141 18.2766 13.9141 18.75 12.5 18.75C9.79062 18.75 7.4901 17.0224 6.62344 14.6115L3.22656 17.2287C4.95052 20.6021 8.45156 22.9167 12.5 22.9167Z" fill="#4CAF50"/>
+                        <path d="M22.7141 10.4599H21.875V10.4167H12.5V14.5833H18.387C17.9745 15.7484 17.225 16.7531 16.2583 17.4849L16.2599 17.4838L19.4839 20.212C19.2557 20.4193 22.9167 17.7083 22.9167 12.5C22.9167 11.8016 22.8448 11.1198 22.7141 10.4599Z" fill="#1976D2"/>
+                      </svg>
+                </div>
+                <span>Sign Up with Google</span>
+              </a>
+
+              <div class="login-option">
+                <h6> Or</h6>
+               
+              </div>
+              <form action="post">
+                <div class="form-wrp">
+                  <div class="input-item">
+                    <label for="">Full Name</label>
+                    <input type="text" placeholder="Example@gmail.com" />
+                  </div>
+                  <div class="input-item">
+                    <label for="">Enter Your Email</label>
+                    <input type="email" placeholder="Example@gmail.com" />
+                  </div>
+                  <div class="input-item">
+                    <label for="">Enter Password</label>
+                    <input type="password" placeholder="********" />
+                  </div>
+                  <!-- <div class="forget-pw">
+                    <a href="#">Forgot Password?</a>
+                  </div> -->
+  
+                  <a href="#" class="input-btn bg-btn">Sign Up</a>
+                  <p>Don’t have an account? <a href="#" class="bg-text"> Sign in</a></p>
+                </div>
+              </form>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <!-- =============== Jquery CDN ============ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="js/custom.js"></script>
+
+</body>
+</html>
